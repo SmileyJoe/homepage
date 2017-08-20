@@ -4,6 +4,8 @@ html, body {
 
 body {
     text-align: center;
+    margin: 0;
+    padding: 0;
     font-family: Bitter, "Apple SD Gothic Neo", "Noto Sans", "Source Han Sans", "Noto Sans CJK JP", "Source Han Sans JP", "Noto Sans CJK KR", "Source Han Sans KR", NanumBarunGothic, AppleGothic, "Malgun Gothic", Dotum, sans-serif;
     color: #111;
     line-height: 1.5;
@@ -27,13 +29,7 @@ h1 {
 .nav {
     list-style-type: none;
     font-size: 20px;
-}
-
-.nav ul {
-    display: inline-block;
-    /* For IE, the outcast */
-    zoom:1;
-    *display: inline;
+    padding-left: 0px;
 }
 
 .nav li {
