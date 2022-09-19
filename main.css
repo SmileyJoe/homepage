@@ -30,7 +30,6 @@ h1 {
 
 /* Navigation */
 .nav {
-    list-style-type: none;
     font-size: 20px;
 }
 
@@ -54,4 +53,42 @@ h1 {
 
 .nav a:hover {
     text-decoration: underline;
+}
+
+.title {
+    font-size: 3.998rem;
+}
+
+@media screen and (max-width: 580px) {
+    .logo {
+        width:200;
+        height:200;
+    }
+
+    .nav span {
+        display: block;
+    }
+
+    .nav span:not(:last-of-type):after {
+        content: "";
+    }
+
+    .nav span:before {
+        content: "\2022";
+    }
+
+    .title {
+        font-size: 1.998rem;
+        margin-bottom: 15px;
+        display: inline-block;
+    }
+
+    .nav a {
+        padding-left: 5px;
+        padding-right: 0px;
+    }
+
+    .nav span:first-of-type a{
+        padding-left: 5px;
+    }
 }

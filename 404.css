@@ -1,0 +1,13 @@
+.nav span:not(:last-of-type):after {
+    content: "";
+}
+
+@media screen and (max-width: 580px) {
+    .nav span:not(:last-of-type):after {
+        content: "";
+    }
+
+    .nav span:before {
+        content: "";
+    }
+}
